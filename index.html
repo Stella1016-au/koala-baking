@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koala Bakers — 원어민과 함께하는 베이킹</title>
+    <meta
+      name="description"
+      content="Koala Bakers — 원어민 선생님과 함께하는 특별한 어린이 베이킹 클래스. 영어 표현과 달콤한 디저트를 한 번에!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bubbles-layer" id="bubblesLayer" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top">Koala Bakers</a>
+      <button
+        type="button"
+        class="nav-toggle"
+        id="navToggle"
+        aria-expanded="false"
+        aria-controls="siteNav"
+      >
+        <span class="sr-only">메뉴 열기</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="주요 메뉴">
+        <a href="#studio">스튜디오</a>
+        <a href="#june-class">6월 클래스</a>
+        <a href="#details">상세 안내</a>
+        <a href="#contact">문의</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__coral hero__coral--left" aria-hidden="true"></div>
+        <div class="hero__coral hero__coral--right" aria-hidden="true"></div>
+        <div class="hero__inner reveal">
+          <p class="hero__eyebrow">June · Summer 2026</p>
+          <h1 class="hero__title">
+            <span class="hero__title-line">Blue Pudding</span>
+            <span class="hero__title-line hero__title-line--accent">Baking Experience</span>
+          </h1>
+          <p class="hero__tagline">
+            원어민 선생님과 함께하는 특별한 베이킹!<br />
+            <strong>파란 바다 푸딩</strong> 만들기
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#details">클래스 상세 보기</a>
+            <a class="btn btn--ghost" href="#contact">문의하기</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="studio section" id="studio">
+        <div class="section__inner">
+          <h2 class="section__title reveal">Koala Bakers 스튜디오</h2>
+          <p class="section__lead reveal">
+            우리는 <strong>원어민 강사</strong>와 함께하는 소규모 어린이 베이킹 클래스를 운영합니다.
+            재미있는 테마로 영어 표현을 자연스럽게 익히고, 손으로 만드는 성취감까지 선물해 드려요.
+          </p>
+          <ul class="pill-list reveal">
+            <li>소규모 · 케어 중심</li>
+            <li>영어 표현 + 실습 베이킹</li>
+            <li>계절마다 새로운 테마 클래스</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="feature section" id="june-class">
+        <div class="feature__grid section__inner">
+          <div class="feature__droplet reveal">
+            <p class="feature__droplet-kicker">이번 달 하이라이트</p>
+            <h2 class="feature__droplet-title">바다 속으로 떠나는 푸딩 시간</h2>
+            <p class="feature__droplet-text">
+              레이어드 젤리와 토핑으로 완성하는 <strong>블루 푸딩</strong>. 시원한 여름 분위기를
+              그대로 담았어요.
+            </p>
+            <div class="starfish-row" aria-hidden="true">
+              <span class="starfish starfish--1"></span>
+              <span class="starfish starfish--2"></span>
+              <span class="starfish starfish--3"></span>
+              <span class="starfish starfish--4"></span>
+              <span class="starfish starfish--5"></span>
+            </div>
+          </div>
+          <div class="feature__visual reveal">
+            <div class="pudding-frame">
+              <img
+                src="assets/image.png"
+                alt="블루 푸딩 베이킹 체험 포스터 일러스트"
+                width="520"
+                height="680"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details section" id="details">
+        <div class="section__inner">
+          <h2 class="section__title reveal">클래스 상세 안내</h2>
+          <div class="details__layout">
+            <ul class="details-list reveal">
+              <li>
+                <span class="details-list__icon" aria-hidden="true"></span>
+                <div>
+                  <span class="details-list__label">연령대</span>
+                  <span class="details-list__value">8–9세</span>
+                </div>
+              </li>
+              <li>
+                <span class="details-list__icon" aria-hidden="true"></span>
+                <div>
+                  <span class="details-list__label">모집 인원</span>
+                  <span class="details-list__value">4명 (선착순 마감)</span>
+                </div>
+              </li>
+              <li>
+                <span class="details-list__icon" aria-hidden="true"></span>
+                <div>
+                  <span class="details-list__label">모집 기한</span>
+                  <span class="details-list__value">5월 25일까지</span>
+                </div>
+              </li>
+              <li>
+                <span class="details-list__icon" aria-hidden="true"></span>
+                <div>
+                  <span class="details-list__label">내용</span>
+                  <span class="details-list__value">영어 표현 배우기 &amp; 맛있는 푸딩 만들기</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="section__inner contact__grid">
+          <div class="shell-card reveal">
+            <div class="shell-card__qr" role="img" aria-label="문의용 QR 코드 자리 (준비 중)">
+              <span class="shell-card__qr-placeholder">QR</span>
+            </div>
+            <p class="shell-card__text">
+              자세한 문의사항은 <strong>QR코드</strong>를 스캔해 주세요!
+            </p>
+            <p class="shell-card__note">QR 이미지는 운영 시 교체해 주세요.</p>
+          </div>
+          <div class="contact__info reveal">
+            <h2 class="section__title section__title--left">함께해요</h2>
+            <p>
+              클래스 일정·준비물·알레르기 안내 등 궁금한 점은 언제든지 연락 주세요. 작은
+              스튜디오라 빠르게 답변드릴게요.
+            </p>
+            <a class="contact-mail" href="mailto:hello@koalabakers.example">hello@koalabakers.example</a>
+            <p class="contact-hint">실제 이메일 주소로 바꿔 사용하세요.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="sand-bar" aria-hidden="true"></div>
+      <div class="site-footer__inner">
+        <span class="logo logo--footer">Koala Bakers</span>
+        <p class="site-footer__copy">© 2026 Koala Bakers. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
